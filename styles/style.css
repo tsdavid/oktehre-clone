@@ -1,0 +1,21 @@
+html body {
+  margin: 0;
+}
+.header_top {
+  width: 1080px;
+  margin: auto;
+  height: 64px;
+  display: inline-flex;
+}
+.logo_section {
+  width: 20%;
+}
+.okthere_logo {
+  width: 160px;
+}
+.tab-bars {
+  width: 60%;
+}
+.right_icon {
+  width: 20%;
+}

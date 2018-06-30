@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 헤드 -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ok There!</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+<!-- 헤드 -->
 <body>
-  <header>
+  <!-- 상단 메뉴 바 시작-->
+  <header class="header_top">
     <div class="logo_section">
-      <img src="https://www.okthere.com/static-cache/app/index/img/there-logo-528.png" alt="">
+      <img class ="okthere_logo" src="https://www.okthere.com/static-cache/app/index/img/there-logo-528.png" alt="">
     </div>
     <div class="tab-bars">
       <a href="">
@@ -46,6 +50,8 @@
       <i class="fas fa-bars"></i>
     </div>
   </header>
+  <!-- 상단 메뉴바 끝-->
+  <!-- 상단 메인 배너 시작-->
   <div class="main_banner">
     <div class="main_banner__img">
       <img src="https://xprd-api.okthere.com/v3/images/5458" alt="">
@@ -57,24 +63,150 @@
     </div>
 
   </div>
+<!-- 상단 메인 배너 끝 -->
+  <!-- 메인 지금 뜨는 핫 부터  어플 소개까지 시작-->
+<main class="main_container">
+  <!-- 섹션1 : 지금 뜨는 핫 -->
+  <section class="main_container_hot">
+    <header class="main_container_headers">
+      <h3 class="main_container_header">지금 뜨는 핫 Tour & Activities</h3>
+    </header>
+    <div class="main_container_hot items">
+      <div class="main_container_hot item">
+        <h4 class="main_container_hot item-text">하얀모래해변과<br>풍부한문화유산<br>세부</h4>
+      </div>
+      <div class="main_container_hot item">
+        <h4 class="main_container_hot item-text">일본여행의시작<br>세계문화의중심<br>도쿄</h4>
+      </div>
+      <div class="main_container_hot item">
+        <h4 class="main_container_hot item-text">다채로운문화와<br>흥미진진한모험<br>싱가폴</h4>
+      </div>
+      <div class="main_container_hot item">
+        <h5 class="main_container_hot item-text">세부오슬롭고래상어+가와산캐녀닝투어</h5>
+        <span class="main_container_hot item-text">from</span>
+        <span class="main_container_hot item-text">$142,500</span>
+        <span class="main_container_hot item-text">170,000</span>
+      </div>
+      <div class="main_container_hot item">
+        <h5 class="main_container_hot item-text">후지큐 하이랜드 프리패스</h5>
+        <span class="main_container_hot item-text">from</span>
+        <span class="main_container_hot item-text">$58,540</span>
+        <span class="main_container_hot item-text">66,000</span>
+      </div>
+      <div class="main_container_hot item">
+        <h5 class="main_container_hot item-text">싱가폴 유니버셜 스튜디오</h5>
+        <span class="main_container_hot item-text">from</span>
+        <span class="main_container_hot item-text">56,720</span>
+        <span class="main_container_hot item-text">63,300</span>
+      </div>
+    </div>
+  </section>
+  <!-- 섹션2 : 요즘 많이 찾는 인기 여행지 -->
+  <section class="main_container_popular">
+    <header class="main_container_headers">
+      <h3 class="main_container_header">요즘 많이 찾는 인기 여행지 Best</h3>
+    </header>
+    <div class="main_container_popular-item">
+      <div class="main_container_popular-item-rank-box">
+        <span class="main_container_popular-item-rank">1</span>
+      </div>
+      <h3 class="main_container_popular-item-text">세부출발보홀데이투어</h3>
+      <span class="main_container_popular-item-text">from</span>
+      <span class="main_container_popular-item-text">$91,500</span>
+      <span class="main_container_popular-item-text">110,000</span>
+    </div>
+    <div class="main_container_popular-item">
+      <div class="main_container_popular-item-rank-box">
+        <span class="main_container_popular-item-rank">2</span>
+      </div>
+      <h3 class="main_container_popular-item-text">사이판북부+동부아일랜드투어</h3>
+      <span class="main_container_popular-item-text">from</span>
+      <span class="main_container_popular-item-text">$49,140</span>
+      <span class="main_container_popular-item-text">54,600</span>
+    </div>
+    <div class="main_container_popular-item">
+      <div class="main_container_popular-item-rank-box">
+        <span class="main_container_popular-item-rank">3</span>
+      </div>
+      <h3 class="main_container_popular-item-text">선셋카약킹+무아라 반딧불 투어</h3>
+      <span class="main_container_popular-item-text">from</span>
+      <span class="main_container_popular-item-text">$61,000</span>
+      <span class="main_container_popular-item-text">75,000</span>
+    </div>
+  </section>
+  <!-- 섹션3 : 감성을 자극하는 여행자들의 이야기 -->
+  <section class="main_container_story">
+    <header class="main_container_headers">
+      <h3 class="main_container_header">감성을 자극하는 여행자들의 이야기</h3>
+    </header>
+    <div class="main_container_story_item">
+      <span class="main_container_story-text">THEREZINE</span>
+      <h3 class="main_container_story-text">싱가폴 야경, 제대로 즐기는 방법</h3>
+      <span class="main_container_story-text">Edited by THERE</span>
+    </div>
+    <div class="main_container_story_item">
+      <span class="main_container_story-text">THEREZINE</span>
+      <h3 class="main_container_story-text">괌 여행 준비에 필요한 모든 것</h3>
+      <span class="main_container_story-text">Edited by THERE</span>
+    </div>
+    <div class="main_container_story_item">
+      <span class="main_container_story-text">THEREZINE</span>
+      <h3 class="main_container_story-text">괌에서 즐기는 가장 화려한 순간</h3>
+      <span class="main_container_story-text">Edited by THERE</span>
+    </div>
+  </section>
+  <!-- 섹션4 : 놓치면 후회 할  리얼 후기 -->
+  <section class="main_container_review">
+    <header class="main_container_headers">
+      <h3 class="main_container_header">놓치면 후회 할 리얼 후기 Review</h3>
+    </header>
+    <div class="main_container_review_item">
+      <h3 class="main_container_review_item-text">Traveler'sReview</h3>
+      <span class="main_container_review_item-text">리뷰를 찾아 여기저기 돌아다니는 것은 그만!이제 THERE, 한곳에서 확인하세요.</span>
+    </div>
+    <div class="main_container_review_item">
+      <img src="" alt="">
+      <h4 class="main_container_review_item-text">[괌여행]해양 스포츠 총집합!</h4>
+      <span class="main_container_review_item-text">괌'알루팡비치클럽'에서화끈하게즐겨보자!</span>
+      <span class="main_container_review_item-text">by THERE</span>
+    </div>
+    <div class="main_container_review_item">
+      <img src="" alt="">
+      <h4 class="main_container_review_item-text">어디에서도 볼 수 없는 독보적인 투어</h4>
+      <span class="main_container_review_item-text">코타키나발루 선셋 카약킹 무아라 반딧불 투어</span>
+      <span class="main_container_review_item-text">by THERE</span>
+    </div>
+  </section>
+  <!-- 섹션5 : 모바일 앱 -->
+  <section class="main_container_mobile-app">
+    <h1 class="main_container_mobile-app-title">
+      <img src="" alt="">모바일 앱
+    </h1>
+    <h2 class="main_container_mobile-app-subtitle">
+      그곳에서 꼭 해야 할 Activity는 THERE App으로 만나보세요.
+    </h2>
+    <span class="main_container_mobile-app-text">
+      국내외 여행지내 티켓,투어,액티비티를 확인하고 최저가에 실시간으로 예약하세요.<br>
+      THEREZINE을 통해 일상에서도 여행을 떠나보세요.
+    </span>
+    <div class="main_container_mobile-app-google">
+      <i class="fab fa-google-play fa-3x"></i>
+      <h2 class="main_container_mobile-app-google-text">Google Play</h2>
+    </div>
+    <div class="main_container_mobile-app-apple">
+      <i class="fab fa-apple fa-3x"></i>
+      <h2 class="main_container_mobile-app-apple">Apple Store</h2>
+    </div>
+  </section>
 
-  <div class="content_section__hot">
-    <span class="content_section_span">지금 뜨는 핫 Tour&Activities</span>
-  </div>
-  <div class="content_section__popular">
-    <span class="content_section_span">요즘 많이 찾는 인기 여행지 Best</span>
-  </div>
-  <div class="content_section__story">
-    <span class="content_section_span">감성을 자극하는 여행자들의 이야기</span>
-  </div>
-  <div class="content_section__review">
-    <span class="content_section_span">놓치면 후회 할 리얼 후기 Review</span>
-  </div>
-  <div class="content_section__app">
-    
-  </div>
+</main>
+<!-- 메인 지금 뜨는 핫 부터  어플 소개까지  끝-->
 
 
+
+  <!-- 메인 지금 뜨는 핫 부터  어플 소개까지 -->
+
+<!-- 하단 부분 bottom 시작-->
   <nav>
     <div class="nav_icon_list">
       <i class="fab fa-facebook-f"></i>
@@ -117,5 +249,6 @@
 
     </div>
   </nav>
+  <!-- 하단 부분 bottom 끝-->
 </body>
 </html>
