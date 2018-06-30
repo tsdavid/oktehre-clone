@@ -1,0 +1,23 @@
+.main_banner{
+  height: 590px
+}
+.main_banner__img{
+  background: url("https://xprd-api.okthere.com/v3/images/5458");
+  background-position: center;
+  height: 100%;
+
+}
+.main_banner__img h2{
+  padding-top:150px;
+  padding:10px;
+}
+.main_banner__img h3{
+  font-size:24px;
+  padding: 10px;
+}
+.main_banner__img h2,h3{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-size:32px;
+}

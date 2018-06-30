@@ -1,0 +1,52 @@
+a{
+  text-decoration:none;
+
+}
+.header_top {
+  width: 1080px;
+  margin: auto;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_section {
+
+}
+.okthere_logo {
+  width: 150px;
+  margin:10px 0px;
+}
+.tab-bars{
+  height:20px;
+  margin: auto;
+  margin-left:0;
+  margin-right:40px;
+}
+.tab-bars a{
+  padding: 17px;
+}
+.tab-bars a span{
+  font-size:13px;
+  font-weight:bold;
+
+}
+.tab-bars a:hover span{
+  color:pink;
+}
+.tab-bars .tab-bar__menu {
+  color: gray;
+}
+.right_icon {
+  width:70px;
+  margin:auto;
+}
+.fa-search{
+  margin-right: 20px;
+  color: pink;
+}
+.fa-bars{
+  color:pink
+}
+.fa-bars:hover , .fa-search:hover{
+  color:red
+}
