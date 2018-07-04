@@ -7,12 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ok There!</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <!-- 헤드 -->
 <body>
   <!-- 상단 메뉴 바 시작-->
-  <header class="header_top">
+  <div class="header_top-wrap">
+    <header class="header_top">
     <div class="logo_section">
       <a href="main.html">
         <img class ="okthere_logo" src="https://www.okthere.com/static-cache/app/index/img/there-logo-528.png" alt="">
@@ -52,6 +53,7 @@
       <i class="fas fa-bars fa-lg"></i>
     </div>
   </header>
+  </div>
   <!-- 상단 메뉴바 끝-->
   <!-- 상단 메인 배너 시작-->
   <div class="main_banner">
@@ -72,18 +74,18 @@
   <!-- 메인 지금 뜨는 핫 부터  어플 소개까지 시작-->
 <main class="main_container">
   <!-- 섹션1 : 지금 뜨는 핫 -->
-  <section class="main_container_hot">
+  <section class="main_container banner_hot">
     <header class="main_container_headers">
-      <h3 class="main_container_header">지금 뜨는 핫 Tour & Activities</h3>
+      <h3 class="main_container_header">지금 뜨는 <span class="header_title-color">핫</span> Tour & Activities</h3>
     </header>
     <div class="main_container_hot items">
-      <div class="main_container_hot item">
+      <div class="main_container_hot item .hot_item-sebu">
         <h4 class="main_container_hot item-text">하얀모래해변과<br>풍부한문화유산<br>세부</h4>
       </div>
-      <div class="main_container_hot item">
+      <div class="main_container_hot item .hot_item-tokyo">
         <h4 class="main_container_hot item-text">일본여행의시작<br>세계문화의중심<br>도쿄</h4>
       </div>
-      <div class="main_container_hot item">
+      <div class="main_container_hot item .hot_item-singapore">
         <h4 class="main_container_hot item-text">다채로운문화와<br>흥미진진한모험<br>싱가폴</h4>
       </div>
       <div class="main_container_hot item">
@@ -107,7 +109,7 @@
     </div>
   </section>
   <!-- 섹션2 : 요즘 많이 찾는 인기 여행지 -->
-  <section class="main_container_popular">
+  <section class="main_container banner_popular">
     <header class="main_container_headers">
       <h3 class="main_container_header">요즘 많이 찾는 인기 여행지 Best</h3>
     </header>
@@ -140,7 +142,7 @@
     </div>
   </section>
   <!-- 섹션3 : 감성을 자극하는 여행자들의 이야기 -->
-  <section class="main_container_story">
+  <section class="main_container banner_story">
     <header class="main_container_headers">
       <h3 class="main_container_header">감성을 자극하는 여행자들의 이야기</h3>
     </header>
@@ -161,7 +163,7 @@
     </div>
   </section>
   <!-- 섹션4 : 놓치면 후회 할  리얼 후기 -->
-  <section class="main_container_review">
+  <section class="main_container banner_review">
     <header class="main_container_headers">
       <h3 class="main_container_header">놓치면 후회 할 리얼 후기 Review</h3>
     </header>
@@ -183,7 +185,7 @@
     </div>
   </section>
   <!-- 섹션5 : 모바일 앱 -->
-  <section class="main_container_mobile-app">
+  <section class="main_container banner_mobile-app">
     <h1 class="main_container_mobile-app-title">
       <img src="" alt="">모바일 앱
     </h1>
