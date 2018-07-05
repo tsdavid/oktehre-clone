@@ -1,3 +1,6 @@
+.main_container_headers {
+  margin-bottom: 36px;
+}
 .main_container {
   background: white;
 }
@@ -19,29 +22,111 @@
 
 .main_container_hot_items .hot_item-sebu,
 .main_container_hot_items .hot_item-column {
-  width: 50%;
-  background: pink;
+  width: 49.5%;
   height: 718px;
 }
+
 .main_container_hot_items .hot_item-sebu {
   background: url(https://xprd-api.okthere.com/v3/images/19006/sizes/0x720);
-}
-.main_container_hot_items .hot_item-tokyo {
-  background: url(https://xprd-api.okthere.com/v3/images/21181/sizes/537x0);
-}
-.main_container_hot_items .hot_item-singapore {
-  background: url(https://xprd-api.okthere.com/v3/images/72508/sizes/537x0);
+  background-position: center;
+  background-size: cover;
+  margin-right: 3px;
 }
 .main_container_hot_items .hot_item-column {
   display: flex;
   flex-direction: column;
+  margin-left: 3px;
+}
+.main_container_hot_items .hot_item-tokyo {
+  background: url(https://xprd-api.okthere.com/v3/images/21181/sizes/537x0);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 6px;
+}
+.main_container_hot_items .hot_item-singapore {
+  background: url(https://xprd-api.okthere.com/v3/images/72508/sizes/537x0);
+  background-position: center;
+  background-size: cover;
 }
 .main_container_hot_items .hot_item-tokyo,
 .main_container_hot_items .hot_item-singapore {
-  height: 350px;
+  height: 359px;
+  width: 100%;
 }
 
 .main_container_hot_item {
   width: 33%;
   height: 356px;
+}
+.main_container_hot_item_wrap {
+  margin-top: 6px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.hot_item_bottom_first,
+.hot_item_bottom_second,
+.hot_item_bottom_third {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+.hot_item_bottom_first {
+  background: url(https://xprd-api.okthere.com/v3/images/8906);
+  background-position: center;
+  background-size: cover;
+}
+.hot_item_bottom_second {
+  background: url(https://xprd-api.okthere.com/v3/images/11081);
+  background-position: center;
+  background-size: cover;
+}
+.hot_item_bottom_third {
+  background: url(https://xprd-api.okthere.com/v3/images/13256);
+  background-position: center;
+  background-size: cover;
+}
+.main_container_hot_item-text {
+  color: white;
+}
+.item_text-sebu,
+.item_text-japan,
+.item_text-singapore {
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: -3px;
+  line-height: 48px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item_text-highlight {
+  font-weight: 600;
+}
+.hot_item_bottom_title {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.7px;
+  line-height: 1;
+  padding-bottom: 5px;
+}
+.del_price {
+  text-decoration: line-through;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+}
+.hot_item_text_from {
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 9px;
+}
+.current_price {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 0.61;
+}
+.main_container_hot_item:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
