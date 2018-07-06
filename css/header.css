@@ -5,9 +5,10 @@ a {
   position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 1;
 }
 .header_top {
-  width: 1080px;
+  width: 72%;
   margin: auto;
   height: 64px;
   display: flex;
@@ -22,7 +23,6 @@ a {
 .tab-bars {
   height: 20px;
   margin: auto;
-  margin-left: 0;
   margin-right: 40px;
 }
 .tab-bars a {
@@ -33,7 +33,7 @@ a {
   font-weight: bold;
 }
 .tab-bars a:hover span {
-  color: pink;
+  color: #994ede;
 }
 .tab-bars .tab-bar__menu {
   color: gray;
@@ -41,15 +41,17 @@ a {
 .right_icon {
   width: 70px;
   margin: auto;
+  margin-right: 0;
+  cursor: pointer;
 }
 .fa-search {
   margin-right: 20px;
-  color: pink;
+  color: #994ede;
 }
 .fa-bars {
-  color: pink;
+  color: #994ede;
 }
 .fa-bars:hover,
 .fa-search:hover {
-  color: red;
+  color: pink;
 }

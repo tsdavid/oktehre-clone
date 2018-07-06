@@ -1,0 +1,52 @@
+.styory_header {
+  padding-top: 70px;
+  margin-bottom: 36px;
+}
+.main_container_story_items {
+  width: 72%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main_container_story_items .main_container_story_item {
+  width: 33%;
+  height: 450px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.main_container_story_items .main_container_story_item:first-child {
+  background: url("https://xprd-api.okthere.com/v3/images/179459");
+  background-size: cover;
+  background-position: center;
+}
+.main_container_story_items .main_container_story_item:nth-child(2) {
+  background: url("https://xprd-api.okthere.com/v3/images/19524");
+  background-size: cover;
+  background-position: center;
+}
+
+.main_container_story_items .main_container_story_item:last-child {
+  margin-right: 0;
+  background: url("https://xprd-api.okthere.com/v3/images/13169");
+  background-size: cover;
+  background-position: center;
+}
+.main_container_story_items .main_container_story_item:hover {
+  opacity: 0.8;
+}
+.main_container_story-text {
+  color: #fff;
+}
+.story-text-title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 130px;
+  margin-bottom: 60px;
+  letter-spacing: -1.8px;
+}
+.story-text-magazine {
+  margin-top: 30px;
+}

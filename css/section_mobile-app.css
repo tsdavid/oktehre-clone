@@ -1,0 +1,32 @@
+.banner_mobile-app {
+  width: 73%;
+  height: 380px;
+  margin-top: 70px;
+  margin: auto;
+  background: #f1e8f8;
+}
+.banner_mobile-app_wrap {
+  padding-top: 48px;
+  padding-left: 68px;
+}
+.mobile-app_log {
+}
+.main_container_mobile-app-subtitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  letter-spacing: -0.5px;
+  color: #575757;
+}
+.main_container_mobile-app-text {
+  padding-top: 16px;
+  opacity: 0.7;
+  font-size: 15px;
+  line-height: 1.73;
+  letter-spacing: -0.4px;
+  color: #575757;
+}
+.mobile-app-stores {
+  margin-top: 40px;
+  display: flex;
+}

@@ -31,12 +31,17 @@ h3 {
   width: 100%;
   text-align: center;
 }
-.selected-now {
-  color: pink;
+.main_banner__controll .selected-now {
+  color: #994ede;
 }
 .fa-circle {
   color: gray;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.fa-circle:last-child {
+  margin-right: 0;
 }
 .fa-circle:hover {
-  color: pink;
+  color: #994ede;
 }
